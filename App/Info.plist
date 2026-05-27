@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>ScreenTranslate</string>
+    <key>CFBundleDisplayName</key>
+    <string>ScreenTranslate</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.screentranslate.app</string>
+    <key>CFBundleVersion</key>
+    <string>1.0.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSUIElement</key>
+    <false/>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>ScreenTranslate 需要屏幕录制权限以进行 OCR 文字识别</string>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>ScreenTranslate 需要辅助功能权限以截取屏幕内容</string>
+    <key>NSCameraUsageDescription</key>
+    <string>ScreenTranslate 需要访问您的照片以进行截图管理</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+</dict>
+</plist>
